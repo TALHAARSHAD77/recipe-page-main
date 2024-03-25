@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsla(330, 100%, 98%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.recipepage {
+  max-width: 735px;
+  margin: 80px 0px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(230, 230, 235, 0.2) 0px 8px 24px;
+}
+hr {
+  margin: 0px 30px;
+  color: #ddd;
+  opacity: 0.4;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+
+.heading {
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 13px 0px;
+}
+
+.image img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+.image {
+  margin: 20px 25px;
+}
+
+h2 {
+  color: hsl(332, 51%, 32%);
+  font-size: large;
+  font-weight: 400px;
+}
+h3,
+h4,
+h5 {
+  color: hsl(14, 45%, 36%);
+  font-size: x-large;
+  font-weight: 600px;
+}
+
+.content2 {
+  background-color: hsl(330, 100%, 98%);
+  margin: 25px;
+  border-radius: 10px;
+  min-height: 176px;
+  padding: 20px 20px 20px 30px;
+}
+.content {
+  margin: 26px;
+}
+ul li {
+  list-style-position: outside;
+  margin-left: 20px;
+}
+.list li {
+  padding: 7px;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+ol li {
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tcloumn {
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+  font-weight: 600;
+}
+@media screen and (max-width: 450px) {
+  .recipepage {
+    margin: 0px;
+    border-radius: 0px;
+  }
+  .image img {
+    border-radius: 0px;
+  }
+  .image {
+    margin: 0px;
+  }
+}
